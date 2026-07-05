@@ -31,40 +31,31 @@
 
     <section class="offers" aria-label="Ways to unlock">
 
-      <article class="offer" data-offer="video">
-        <div class="offer-icon">▶︎</div>
+      <article class="offer" data-offer="survey1">
+        <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Watch a short ad</h2>
-          <p>One 15-second video. No sign-up, no personal info needed.</p>
+          <h2>Take a survey from CPX Research</h2>
+          <p>About 2–3 minutes. No payment details, ever.</p>
         </div>
-        <button class="offer-action" data-action="video">Watch</button>
+        <button class="offer-action" data-action="survey" data-url="https://www.cpx-research.com/">Start</button>
       </article>
 
-      <article class="offer" data-offer="follow">
-        <div class="offer-icon">＠</div>
+      <article class="offer" data-offer="survey2">
+        <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Follow us on Instagram</h2>
-          <p>Opens our real profile in a new tab. Come back and hit confirm.</p>
+          <h2>Complete a survey from BitLabs</h2>
+          <p>A short set of questions. Skip anytime, no obligation.</p>
         </div>
-        <button class="offer-action" data-action="follow">Follow</button>
+        <button class="offer-action" data-action="survey" data-url="https://bitlabs.ai/">Start</button>
       </article>
 
-      <article class="offer" data-offer="share">
-        <div class="offer-icon">↗</div>
+      <article class="offer" data-offer="survey3">
+        <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Share this page</h2>
-          <p>Send the link to a friend using your phone's share sheet.</p>
+          <h2>Answer this survey to unlock instantly</h2>
+          <p>One quick survey — plainly labeled, nothing gamified.</p>
         </div>
-        <button class="offer-action" data-action="share">Share</button>
-      </article>
-
-      <article class="offer" data-offer="newsletter">
-        <div class="offer-icon">✉︎</div>
-        <div class="offer-body">
-          <h2>Join our newsletter</h2>
-          <p>Occasional product updates. Unsubscribe anytime, one click.</p>
-        </div>
-        <button class="offer-action" data-action="newsletter">Join</button>
+        <button class="offer-action" data-action="survey" data-url="https://www.surveymonkey.com/">Start</button>
       </article>
 
     </section>
@@ -82,36 +73,6 @@
   <footer class="footer">
     <p>© 2026 Lookmaximiser. Built with honest offers, by design.</p>
   </footer>
-
-  <!-- Ad modal -->
-  <div class="modal-backdrop" id="videoModal" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
-      <h3 id="videoModalTitle">Playing ad</h3>
-      <div class="fake-video">
-        <div class="fake-video-progress" id="videoProgress"></div>
-      </div>
-      <p id="videoCountdown">15s remaining</p>
-    </div>
-  </div>
-
-  <!-- Newsletter modal -->
-  <div class="modal-backdrop" id="newsletterModal" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="newsletterModalTitle">
-      <h3 id="newsletterModalTitle">Join our newsletter</h3>
-      <form id="newsletterForm">
-        <label for="emailInput">Email address</label>
-        <input type="email" id="emailInput" required placeholder="you@example.com" />
-        <label class="checkbox-row">
-          <input type="checkbox" id="consentInput" required />
-          I agree to receive occasional emails and can unsubscribe anytime.
-        </label>
-        <div class="modal-actions">
-          <button type="button" class="modal-cancel" id="newsletterCancel">Cancel</button>
-          <button type="submit" class="modal-confirm">Subscribe</button>
-        </div>
-      </form>
-    </div>
-  </div>
 
   <!-- Toast -->
   <div class="toast" id="toast" hidden></div>

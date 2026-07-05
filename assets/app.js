@@ -36,96 +36,25 @@ function markCompleted(offerKey, button) {
   }
 }
 
-// --- Watch ad ---
-const videoModal = document.getElementById("videoModal");
-const videoProgress = document.getElementById("videoProgress");
-const videoCountdown = document.getElementById("videoCountdown");
-const AD_DURATION_MS = 15000;
+// --- Surveys ---
+// Each survey opens the partner's real site in a new tab. In production,
+// this URL would be a per-user tracking link from the survey network's
+// postback API, and completion would be confirmed by that postback rather
+// than a self-reported click.
+document.querySelectorAll('[data-action="survey"]').forEach((button) => {
+  const offerKey = button.closest(".offer").dataset.offer;
+  const url = button.dataset.url;
 
-document.querySelector('[data-action="video"]').addEventListener("click", (e) => {
-  const button = e.currentTarget;
-  videoModal.hidden = false;
-  let elapsed = 0;
-  const start = Date.now();
-
-  const tick = () => {
-    elapsed = Date.now() - start;
-    const pct = Math.min(100, (elapsed / AD_DURATION_MS) * 100);
-    videoProgress.style.width = `${pct}%`;
-    const remaining = Math.max(0, Math.ceil((AD_DURATION_MS - elapsed) / 1000));
-    videoCountdown.textContent = `${remaining}s remaining`;
-
-    if (elapsed < AD_DURATION_MS) {
-      requestAnimationFrame(tick);
-    } else {
-      videoModal.hidden = true;
-      videoProgress.style.width = "0%";
-      markCompleted("video", button);
-      showToast("Thanks for watching!");
+  button.addEventListener("click", () => {
+    if (button.dataset.stage === "opened") {
+      markCompleted(offerKey, button);
+      showToast("Thanks for completing the survey!");
+      return;
     }
-  };
-  requestAnimationFrame(tick);
-});
-
-// --- Follow ---
-document.querySelector('[data-action="follow"]').addEventListener("click", (e) => {
-  const button = e.currentTarget;
-  if (button.dataset.stage === "opened") {
-    markCompleted("follow", button);
-    showToast("Thanks for following!");
-    return;
-  }
-  window.open("https://instagram.com/", "_blank", "noopener");
-  button.dataset.stage = "opened";
-  button.textContent = "Confirm";
-});
-
-// --- Share ---
-document.querySelector('[data-action="share"]').addEventListener("click", async (e) => {
-  const button = e.currentTarget;
-  const shareData = {
-    title: "Lookmaximiser",
-    text: "Check this out:",
-    url: window.location.href,
-  };
-
-  try {
-    if (navigator.share) {
-      await navigator.share(shareData);
-      markCompleted("share", button);
-      showToast("Thanks for sharing!");
-    } else {
-      await navigator.clipboard.writeText(shareData.url);
-      markCompleted("share", button);
-      showToast("Link copied to clipboard!");
-    }
-  } catch (err) {
-    // user cancelled the share sheet — no action taken, no penalty
-  }
-});
-
-// --- Newsletter ---
-const newsletterModal = document.getElementById("newsletterModal");
-const newsletterForm = document.getElementById("newsletterForm");
-const newsletterCancel = document.getElementById("newsletterCancel");
-let newsletterButtonRef = null;
-
-document.querySelector('[data-action="newsletter"]').addEventListener("click", (e) => {
-  newsletterButtonRef = e.currentTarget;
-  newsletterModal.hidden = false;
-});
-
-newsletterCancel.addEventListener("click", () => {
-  newsletterModal.hidden = true;
-  newsletterForm.reset();
-});
-
-newsletterForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  newsletterModal.hidden = true;
-  markCompleted("newsletter", newsletterButtonRef);
-  showToast("You're subscribed — welcome!");
-  newsletterForm.reset();
+    window.open(url, "_blank", "noopener");
+    button.dataset.stage = "opened";
+    button.textContent = "Confirm";
+  });
 });
 
 // --- Unlock / download ---

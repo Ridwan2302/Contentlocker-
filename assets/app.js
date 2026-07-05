@@ -2,11 +2,11 @@ const translations = {
   en: {
     heading: "Asmetry",
     subtitle:
-      "To prevent bot spam and verify you are a real user, complete a survey from the list below. This usually takes 2 to 3 minutes. Once completed, the app will instantly be ready for download. Thank you.",
+      "To prevent from bot spam and verify you are a real user, please complete a survey from the survey list below. Once completed, the app will instantly be unlocked and downloaded into your mobile device. Thank you",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
-    start: "Start",
+    start: "Complete",
     confirm: "Confirm",
     done: "Done",
     unlockLocked: "Download unlocks automatically",
@@ -20,11 +20,11 @@ const translations = {
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Pour éviter les robots spammeurs et vérifier que vous êtes un utilisateur réel, complétez un sondage depuis la liste ci-dessous. Cela prend généralement 2 à 3 minutes. Une fois terminé, l'application sera immédiatement prête à télécharger. Merci.",
+      "Pour éviter les bots et vérifier que vous êtes un utilisateur réel, veuillez s'il-vous-plaît complétez un sondage depuis la liste ci-dessous. Une fois terminé, l'application sera immédiatement débloquée et téléchargée dans votre appareil mobile. Merci.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",
-    start: "Commencer",
+    start: "Compléter",
     confirm: "Confirmer",
     done: "Terminé",
     unlockLocked: "Le téléchargement se débloque automatiquement",

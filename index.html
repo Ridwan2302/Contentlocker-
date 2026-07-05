@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Lookmaximiser — Unlock your download</title>
+<title>Asmetry</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔓</text></svg>" />
 <link rel="stylesheet" href="assets/style.css" />
 </head>
@@ -12,21 +12,22 @@
   <header class="topbar">
     <div class="topbar-inner">
       <span class="brand">Lookmaximiser</span>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Unlock your download</h1>
-      <p class="subtitle">
-        Complete <strong>one</strong> step below — honestly, no tricks, no hidden
-        data collection. Your download starts the moment you're done.
-      </p>
+      <h1 data-i18n="heading">Asmetry</h1>
+      <p class="subtitle" data-i18n="subtitle"></p>
 
       <div class="progress" aria-hidden="true">
         <div class="progress-bar" id="progressBar"></div>
       </div>
-      <p class="progress-label" id="progressLabel">0 of 1 steps completed</p>
+      <p class="progress-label" id="progressLabel"></p>
     </section>
 
     <section class="offers" aria-label="Ways to unlock">
@@ -34,44 +35,37 @@
       <article class="offer" data-offer="survey1">
         <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Take a survey from CPX Research</h2>
-          <p>About 2–3 minutes. No payment details, ever.</p>
+          <h2 data-i18n="offer1"></h2>
         </div>
-        <button class="offer-action" data-action="survey" data-url="https://www.cpx-research.com/">Start</button>
+        <button class="offer-action" data-action="survey" data-stage="start" data-url="https://www.cpx-research.com/"></button>
       </article>
 
       <article class="offer" data-offer="survey2">
         <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Complete a survey from BitLabs</h2>
-          <p>A short set of questions. Skip anytime, no obligation.</p>
+          <h2 data-i18n="offer2"></h2>
         </div>
-        <button class="offer-action" data-action="survey" data-url="https://bitlabs.ai/">Start</button>
+        <button class="offer-action" data-action="survey" data-stage="start" data-url="https://bitlabs.ai/"></button>
       </article>
 
       <article class="offer" data-offer="survey3">
         <div class="offer-icon">✎</div>
         <div class="offer-body">
-          <h2>Answer this survey to unlock instantly</h2>
-          <p>One quick survey — plainly labeled, nothing gamified.</p>
+          <h2 data-i18n="offer3"></h2>
         </div>
-        <button class="offer-action" data-action="survey" data-url="https://www.surveymonkey.com/">Start</button>
+        <button class="offer-action" data-action="survey" data-stage="start" data-url="https://www.pollfish.com/"></button>
       </article>
 
     </section>
 
     <section class="unlock-section">
-      <button class="unlock-button" id="unlockButton" disabled>
-        Download unlocks automatically
-      </button>
-      <p class="fine-print">
-        We never ask for passwords, payment details, or sell your data.
-      </p>
+      <button class="unlock-button" id="unlockButton" data-stage="locked" disabled></button>
+      <p class="fine-print" data-i18n="finePrint"></p>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2026 Lookmaximiser. Built with honest offers, by design.</p>
+    <p data-i18n="footer"></p>
   </footer>
 
   <!-- Toast -->

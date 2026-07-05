@@ -13,6 +13,7 @@ const translations = {
     unlockReady: "Download now",
     finePrint: "We never ask for passwords, payment details, or sell your data.",
     footer: "© 2026 Lookmaximiser. Built with honest offers, by design.",
+    progress: (done, total) => `${done} of ${total} survey completed`,
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",
   },
@@ -31,6 +32,7 @@ const translations = {
     finePrint:
       "Nous ne demandons jamais de mot de passe ni d'informations de paiement, et nous ne vendons pas vos données.",
     footer: "© 2026 Lookmaximiser. Conçu avec des offres honnêtes.",
+    progress: (done, total) => `${done} sur ${total} sondage complété`,
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",
   },
@@ -44,6 +46,7 @@ const state = {
 };
 
 const progressBar = document.getElementById("progressBar");
+const progressLabel = document.getElementById("progressLabel");
 const unlockButton = document.getElementById("unlockButton");
 const toast = document.getElementById("toast");
 
@@ -71,6 +74,7 @@ function renderUnlockButton() {
 function renderProgress() {
   const done = Math.min(state.completed.size, state.required);
   progressBar.style.width = `${(done / state.required) * 100}%`;
+  progressLabel.textContent = t("progress")(done, state.required);
 }
 
 function applyTranslations() {

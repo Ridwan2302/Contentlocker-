@@ -2,7 +2,7 @@ const translations = {
   en: {
     heading: "Asmetry",
     subtitle:
-      "Complete one survey to support Asmetry.\n\nWe get paid by our partners when a survey is completed, allowing us to keep the app 100% free instead of charging you directly.\n\nComplete one survey to continue.",
+      "Complete one survey to support Asmetry.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app 100% free instead of charging you directly.\n\nComplete one survey to continue.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -20,7 +20,7 @@ const translations = {
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Complétez un sondage pour soutenir Asmetry.\n\nNos partenaires nous rémunèrent lorsqu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite plutôt que de vous facturer directement.",
+      "Complétez un sondage pour obtenir Asmetry.\n\nNos partenaires nous rémunèrent à chaque fois lorsqu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite (pour vous) plutôt que de vous facturer directement.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

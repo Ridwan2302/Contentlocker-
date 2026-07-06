@@ -2,7 +2,8 @@ const translations = {
   en: {
     heading: "Asmetry",
     subtitle:
-      "Complete one survey to continue.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free for you, instead of charging you directly.",
+      "Complete one survey to support Asmetry.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free instead of charging you directly.",
+    progressLabel: "Complete one survey to continue.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -13,14 +14,14 @@ const translations = {
     unlockReady: "Download now",
     finePrint: "We never ask for passwords, payment details, or sell your data.",
     footer: "© 2026 Lookmaximiser. Built with honest offers, by design.",
-    progress: (done, total) => `${done} of ${total} survey completed`,
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",
   },
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Effectuez un sondage pour continuer.\n\nNos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite pour vous plutôt que de vous facturer directement.",
+      "Complétez un sondage pour soutenir Asmetry.\n\nNos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite plutôt que de vous facturer directement.",
+    progressLabel: "Effectuez un sondage pour continuer.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",
@@ -32,7 +33,6 @@ const translations = {
     finePrint:
       "Nous ne demandons jamais de mot de passe ni d'informations de paiement, et nous ne vendons pas vos données.",
     footer: "© 2026 Lookmaximiser. Conçu avec des offres honnêtes.",
-    progress: (done, total) => `${done} sur ${total} sondage complété`,
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",
   },
@@ -46,7 +46,6 @@ const state = {
 };
 
 const progressBar = document.getElementById("progressBar");
-const progressLabel = document.getElementById("progressLabel");
 const unlockButton = document.getElementById("unlockButton");
 const toast = document.getElementById("toast");
 
@@ -74,7 +73,6 @@ function renderUnlockButton() {
 function renderProgress() {
   const done = Math.min(state.completed.size, state.required);
   progressBar.style.width = `${(done / state.required) * 100}%`;
-  progressLabel.textContent = t("progress")(done, state.required);
 }
 
 function applyTranslations() {

@@ -116,6 +116,7 @@ main {
   font-size: 17px;
   max-width: 460px;
   margin: 0 auto;
+  white-space: pre-line;
 }
 
 .progress {

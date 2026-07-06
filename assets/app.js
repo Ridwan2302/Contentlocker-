@@ -20,7 +20,7 @@ const translations = {
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Complétez un sondage pour soutenir Asmetry.\n\nNos partenaires nous rémunèrent lorsqu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite plutôt que de vous la facturer directement.\n\nComplétez un sondage pour continuer.",
+      "Complétez un sondage pour soutenir Asmetry.\n\nNos partenaires nous rémunèrent lorsqu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite plutôt que de vous facturer directement.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

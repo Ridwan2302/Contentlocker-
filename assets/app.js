@@ -2,7 +2,7 @@ const translations = {
   en: {
     heading: "Asmetry",
     subtitle:
-      "Complete one survey to support Asmetry.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free instead of charging you directly.",
+      "Complete one survey to support Asmetry.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free for you, instead of charging you directly.",
     progressLabel: "Complete one survey to continue.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
@@ -20,7 +20,7 @@ const translations = {
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Complétez un sondage pour soutenir Asmetry.\n\nNos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite plutôt que de vous facturer directement.",
+      "Soutenez Asmetry.io en effectuant un sondage.\n\nNos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite pour vous plutôt que de vous facturer directement.",
     progressLabel: "Effectuez un sondage pour continuer.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",

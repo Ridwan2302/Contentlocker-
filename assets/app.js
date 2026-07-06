@@ -1,9 +1,9 @@
 const translations = {
   en: {
     heading: "Asmetry",
-    subtitle:
-      "Complete one survey to support Asmetry.\n\nWe get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free for you, instead of charging you directly.",
-    progressLabel: "Complete one survey to continue.",
+    subtitle: "Complete one survey to support Asmetry.",
+    progressLabel:
+      "We get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free for you, instead of charging you directly.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -12,7 +12,7 @@ const translations = {
     done: "Done",
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
-    finePrint: "We never ask for passwords, payment details, or sell your data.",
+    finePrint: "Complete one survey to continue.",
     footer: "© 2026 Lookmaximiser. Built with honest offers, by design.",
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",

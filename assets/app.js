@@ -19,8 +19,7 @@ const translations = {
   },
   fr: {
     heading: "Asmetry",
-    subtitle:
-      "Soutenez Asmetry.io en effectuant un sondage.\n\nNos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite pour vous plutôt que de vous facturer directement.",
+    subtitle: "Soutenez Asmetry.io en effectuant un sondage.",
     progressLabel: "Effectuez un sondage pour continuer.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
@@ -31,7 +30,7 @@ const translations = {
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
     finePrint:
-      "Nous ne demandons jamais de mot de passe ni d'informations de paiement, et nous ne vendons pas vos données.",
+      "Nos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite pour vous plutôt que de vous facturer directement.",
     footer: "© 2026 Lookmaximiser. Conçu avec des offres honnêtes.",
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",

@@ -2,8 +2,8 @@ const translations = {
   en: {
     heading: "Asmetry",
     subtitle:
-      "Asmetry is made by a small team with very limited resources. Survey partners are the only reason we can keep it 100% free instead of charging you directly — completing just one below genuinely helps us keep going. Thank you.",
-    progressLabel: "One survey helps us keep Asmetry alive.",
+      "Asmetry is a complete, premium app — the kind you'd normally pay for. Instead of charging you a cent, we only ask for something much smaller: complete one quick survey below, and it's yours, free. Thank you.",
+    progressLabel: "One survey. That's all it takes to unlock it for free.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -20,8 +20,8 @@ const translations = {
   fr: {
     heading: "Asmetry",
     subtitle:
-      "Asmetry est développée par une toute petite équipe, avec très peu de moyens. Ce sont nos partenaires de sondages qui nous permettent de garder l'application 100% gratuite plutôt que de vous la facturer — en compléter un seul ci-dessous nous aide vraiment à continuer. Merci.",
-    progressLabel: "Un sondage nous aide à garder Asmetry en vie.",
+      "Asmetry est une application complète et haut de gamme — le genre que vous auriez normalement à payer. Plutôt que de vous facturer le moindre centime, on vous demande beaucoup moins : complétez un seul sondage rapide ci-dessous, et elle est à vous, gratuitement. Merci.",
+    progressLabel: "Un sondage. C'est tout ce qu'il faut pour la débloquer gratuitement.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

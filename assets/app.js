@@ -1,9 +1,9 @@
 const translations = {
   en: {
     heading: "Asmetry",
-    subtitle: "Complete one survey to support Asmetry.",
-    progressLabel:
-      "We get paid by our partners whenever a survey is completed, allowing us to keep the app at no cost, 100% free for you, instead of charging you directly.",
+    subtitle:
+      "We keep Asmetry 100% free by partnering with survey providers instead of charging you directly. Complete one quick survey below to unlock your download.",
+    progressLabel: "One survey unlocks your download.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -12,16 +12,16 @@ const translations = {
     done: "Done",
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
-    finePrint: "Complete one survey to continue.",
+    finePrint: "No passwords. No payment details. Just one quick survey.",
     footer: "© 2026 Lookmaximiser. Built with honest offers, by design.",
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",
   },
   fr: {
     heading: "Asmetry",
-    subtitle: "Soutenez Asmetry.io en effectuant un sondage.",
-    progressLabel:
-      "Nos partenaires nous rémunèrent à chaque fois qu'un sondage est complété, ce qui nous permet de garder l'application 100% gratuite pour vous plutôt que de vous facturer directement.",
+    subtitle:
+      "Nous gardons Asmetry 100% gratuite grâce à nos partenaires de sondages, plutôt que de vous facturer directement. Complétez un sondage rapide ci-dessous pour débloquer votre téléchargement.",
+    progressLabel: "Un sondage suffit pour débloquer votre téléchargement.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",
@@ -30,7 +30,7 @@ const translations = {
     done: "Terminé",
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
-    finePrint: "Effectuez un sondage pour continuer.",
+    finePrint: "Aucun mot de passe. Aucune information de paiement. Juste un sondage rapide.",
     footer: "© 2026 Lookmaximiser. Conçu avec des offres honnêtes.",
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",

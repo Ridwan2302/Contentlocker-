@@ -3,7 +3,7 @@ const translations = {
     heading: "Asmetry",
     subtitle: "Complete a survey below to get the App.",
     progressLabel:
-      "Asmetry is a premium app you'd normally pay for. But instead of charging you directly, we ask you to complete a survey from our partners which we get paid for. And this how we monetize the app while keeping it free for you.",
+      "Asmetry.io is a complete and premium app you'd normally pay for. But instead of charging you directly, we ask you to complete a quick survey from our partners which we also get paid for. And this how we monetize the app while keeping it free.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -21,7 +21,7 @@ const translations = {
     heading: "Asmetry",
     subtitle: "Complétez un sondage ci-dessous pour obtenir l'application.",
     progressLabel:
-      "Asmetry est une application haut de gamme que vous auriez normalement à payer. Mais plutôt que de vous facturer directement, on vous demande de compléter un sondage auprès de nos partenaires, qui nous rémunèrent pour cela. C'est ainsi que nous monétisons l'application tout en la gardant gratuite pour vous.",
+      "Asmetry.io est une application complète et haut de gamme que vous auriez normalement à payer. Mais plutôt que de vous facturer directement, on vous demande de compléter un sondage rapide auprès de nos partenaires, qui nous rémunèrent également pour cela. C'est ainsi que nous monétisons l'application tout en la gardant gratuite.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

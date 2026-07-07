@@ -1,7 +1,7 @@
 const translations = {
   en: {
     heading: "Asmetry",
-    subtitle: "Complete a survey below in order to get the App",
+    subtitle: "Complete a survey below before you get the App",
     progressLabel:
       "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
     offer1: "Take a survey from CPX Research",

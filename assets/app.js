@@ -12,7 +12,7 @@ const translations = {
     done: "Done",
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
-    finePrint: "Once the survey is verified, the app will be immediately ready to download.",
+    finePrint: "Once your survey is verified, the app will be immediately available for download.",
     footer: "© 2026 Lookmaximiser. All rights reserved.",
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",

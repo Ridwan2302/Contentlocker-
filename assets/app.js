@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    heading: "Asmetry Free",
+    heading: "Asmetry",
     subtitle: "Complete a survey below before you get the App",
     progressLabel:
       "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
@@ -12,13 +12,13 @@ const translations = {
     done: "Done",
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
-    finePrint: "Once the survey is verified, the app will be ready to download.",
+    finePrint: "Once the survey is verified, the app will be immediately ready to download.",
     footer: "© 2026 Lookmaximiser. All rights reserved.",
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",
   },
   fr: {
-    heading: "Asmetry Gratuit",
+    heading: "Asmetry",
     subtitle: "Effectuez un sondage ci-dessous afin d'obtenir l'application",
     progressLabel:
       "Cela est notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tout les utilisateurs, plutôt que de vous facturer directement de l'argent.",
@@ -30,7 +30,7 @@ const translations = {
     done: "Terminé",
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
-    finePrint: "Une fois le sondage vérifié, l'application sera prête à télécharger.",
+    finePrint: "Une fois le sondage validé, l'application sera immédiatement prête à télécharger.",
     footer: "© 2026 Lookmaximiser. Tous droits réservés.",
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",

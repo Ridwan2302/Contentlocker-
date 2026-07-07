@@ -1,9 +1,9 @@
 const translations = {
   en: {
     heading: "Asmetry",
-    subtitle: "Complete a survey below before you get the App",
+    subtitle: "Complete a survey below in order to get the App",
     progressLabel:
-      "This is our only source of revenue, and this is how we can keep the the app 100% free for everyone, instead of charging you directly.",
+      "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -19,9 +19,9 @@ const translations = {
   },
   fr: {
     heading: "Asmetry",
-    subtitle: "Complétez un sondage ci-dessous avant d'obtenir l'application",
+    subtitle: "Effectuez un sondage ci-dessous afin d'obtenir l'application",
     progressLabel:
-      "C'est notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tout le monde, plutôt que de vous facturer directement.",
+      "Cela est notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tout les utilisateurs, plutôt que de vous facturer directement de l'argent.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

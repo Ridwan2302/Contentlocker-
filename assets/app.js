@@ -30,7 +30,7 @@ const translations = {
     done: "Terminé",
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
-    finePrint: "Une fois le sondage validé, l'application sera immédiatement prête à télécharger.",
+    finePrint: "Une fois le sondage validé, l'application sera immédiatement prête à être téléchargée.",
     footer: "© 2026 Lookmaximiser. Tous droits réservés.",
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",

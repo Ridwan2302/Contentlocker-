@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    heading: "Asmetry 100% free",
+    heading: "Asmetry Free",
     subtitle: "Complete a survey below before you get the App",
     progressLabel:
       "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
@@ -18,7 +18,7 @@ const translations = {
     toastDownload: "Your download has started.",
   },
   fr: {
-    heading: "Asmetry 100% gratuit",
+    heading: "Asmetry Gratuit",
     subtitle: "Effectuez un sondage ci-dessous afin d'obtenir l'application",
     progressLabel:
       "Cela est notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tout les utilisateurs, plutôt que de vous facturer directement de l'argent.",

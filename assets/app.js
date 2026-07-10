@@ -21,7 +21,7 @@ const translations = {
     heading: "Asmetry",
     subtitle: "Effectuez un sondage ci-dessous afin d'obtenir l'application",
     progressLabel:
-      "Cela constitue notre seule source de revenus. Et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tous les utilisateurs, plutôt que de vous facturer directement de l'argent.",
+      "Cela représente notre source de revenus. Et c'est ainsi que nous pouvons garder l'application 100% gratuite pour les utilisateurs, plutôt que de facturer directement de l'argent.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",

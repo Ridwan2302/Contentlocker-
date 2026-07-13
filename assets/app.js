@@ -2,7 +2,7 @@ const translations = {
   en: {
     heading: "Asmetry",
     progressLabel:
-      "To prevent from bot spam and verify you are a real user, complete a survey from the survey list below. This usually takes 2 to 3 minutes. And once completed the app will instantly be unlocked and ready for download into your device. Thank you",
+      "To get the app, complete one survey from the survey list below. Once completed the app will immediately be unlocked and ready for download.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",
@@ -11,7 +11,9 @@ const translations = {
     done: "Done",
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
-    finePrint: "Once the survey is verified, the app will be immediately available for download.",
+    finePrint:
+      "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
+    lastSection: "Once completed the app will instantly be unlocked and ready for download.",
     footer: "© 2026 Lookmaximiser. All rights reserved.",
     toastSurvey: "Thanks for completing the survey!",
     toastDownload: "Your download has started.",
@@ -19,7 +21,7 @@ const translations = {
   fr: {
     heading: "Asmetry",
     progressLabel:
-      "Pour éviter les bots spammeurs et vérifier que vous êtes un utilisateur réel, complétez un sondage depuis la liste de sondages ci-dessous. Cela prend généralement 2 à 3 minutes. Et une fois terminé, l'application sera instantanément débloquée et prête à télécharger sur votre appareil. Merci",
+      "Pour obtenir l'application, complétez un sondage depuis la liste de sondages ci-dessous. Une fois terminé, l'application sera immédiatement débloquée et prête à télécharger.",
     offer1: "Faites un sondage de CPX Research",
     offer2: "Complétez un sondage de BitLabs",
     offer3: "Complétez un sondage de Pollfish",
@@ -28,7 +30,9 @@ const translations = {
     done: "Terminé",
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
-    finePrint: "Une fois votre sondage validé, l'application sera immédiatement disponible au téléchargement.",
+    finePrint:
+      "Cela constitue notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tous les utilisateurs, plutôt que de vous facturer directement de l'argent.",
+    lastSection: "Une fois terminé, l'application sera instantanément débloquée et prête à télécharger.",
     footer: "© 2026 Lookmaximiser. Tous droits réservés.",
     toastSurvey: "Merci d'avoir complété le sondage !",
     toastDownload: "Votre téléchargement a commencé.",

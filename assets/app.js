@@ -12,7 +12,7 @@ const translations = {
     unlockLocked: "Download unlocks automatically",
     unlockReady: "Download now",
     finePrint:
-      "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging money directly.",
+      "This is our only source of revenue, and this is how we can keep the the app 100% free for all users, instead of charging you money directly.",
     lastSection: "Once completed the app will instantly be unlocked and ready for download.",
     footer: "© 2026 Lookmaximiser. All rights reserved.",
     toastSurvey: "Thanks for completing the survey!",
@@ -31,7 +31,7 @@ const translations = {
     unlockLocked: "Le téléchargement se débloque automatiquement",
     unlockReady: "Télécharger maintenant",
     finePrint:
-      "Cela constitue notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tous les utilisateurs, plutôt que de facturer directement de l'argent.",
+      "Cela constitue notre seule source de revenus, et c'est ainsi que nous pouvons garder l'application 100% gratuite pour tous les utilisateurs, plutôt que de vous facturer directement de l'argent.",
     lastSection: "Une fois terminé, l'application sera instantanément débloquée et prête à télécharger.",
     footer: "© 2026 Lookmaximiser. Tous droits réservés.",
     toastSurvey: "Merci d'avoir complété le sondage !",
@@ -110,6 +110,7 @@ function markCompleted(offerKey, button) {
   renderProgress();
 
   if (state.completed.size >= state.required) {
+    unlockButton.disabled = false;
     unlockButton.classList.add("ready");
     unlockButton.dataset.stage = "ready";
     renderUnlockButton();
@@ -139,7 +140,7 @@ document.querySelectorAll('[data-action="survey"]').forEach((button) => {
 
 // --- Unlock / download ---
 unlockButton.addEventListener("click", () => {
-  if (unlockButton.dataset.stage !== "ready") return;
+  if (unlockButton.disabled) return;
   const link = document.createElement("a");
   link.href = "assets/your-download.txt";
   link.download = "your-download.txt";

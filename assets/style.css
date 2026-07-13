@@ -225,19 +225,22 @@ main {
   font-size: 17px;
   font-weight: 600;
   padding: 14px 36px;
-  cursor: not-allowed;
-  transition: background 0.3s ease, transform 0.15s ease;
+  cursor: pointer;
+  transition: background 0.3s ease, opacity 0.2s ease, transform 0.15s ease;
   width: 100%;
   max-width: 340px;
 }
 
-.unlock-button.ready {
-  background: var(--success);
-  cursor: pointer;
+.unlock-button:hover {
+  opacity: 0.85;
 }
 
-.unlock-button.ready:active {
+.unlock-button:active {
   transform: scale(0.98);
+}
+
+.unlock-button.ready {
+  background: var(--success);
 }
 
 .fine-print {

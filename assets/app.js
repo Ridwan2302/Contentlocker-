@@ -110,7 +110,6 @@ function markCompleted(offerKey, button) {
   renderProgress();
 
   if (state.completed.size >= state.required) {
-    unlockButton.disabled = false;
     unlockButton.classList.add("ready");
     unlockButton.dataset.stage = "ready";
     renderUnlockButton();
@@ -140,7 +139,7 @@ document.querySelectorAll('[data-action="survey"]').forEach((button) => {
 
 // --- Unlock / download ---
 unlockButton.addEventListener("click", () => {
-  if (unlockButton.disabled) return;
+  if (unlockButton.dataset.stage !== "ready") return;
   const link = document.createElement("a");
   link.href = "assets/your-download.txt";
   link.download = "your-download.txt";

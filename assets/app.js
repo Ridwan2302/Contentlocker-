@@ -2,7 +2,7 @@ const translations = {
   en: {
     heading: "Asmetry",
     progressLabel:
-      "To get the app, complete one survey from the survey list below. Once completed the app will immediately be unlocked and ready for download.",
+      "To get the app, complete a survey from the survey list below. Once completed the app will immediately be unlocked and ready for download.",
     offer1: "Take a survey from CPX Research",
     offer2: "Complete a survey from BitLabs",
     offer3: "Complete a survey from Pollfish",

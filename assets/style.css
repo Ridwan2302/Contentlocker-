@@ -153,10 +153,6 @@ main {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.offer.completed {
-  opacity: 0.6;
-}
-
 .offer-icon {
   flex: 0 0 44px;
   height: 44px;
@@ -186,11 +182,15 @@ main {
 
 .offer-action {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   appearance: none;
   border: none;
   border-radius: 980px;
   background: var(--accent);
   color: white;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   padding: 9px 20px;
@@ -204,11 +204,6 @@ main {
 
 .offer-action:active {
   transform: scale(0.96);
-}
-
-.offer-action:disabled {
-  background: var(--success);
-  cursor: default;
 }
 
 .unlock-section {
